@@ -16,6 +16,7 @@ end
 
 bills_wallet = Wallet.new(500)
 pennys_wallet = Wallet.new(465)
+
 if bills_wallet > pennys_wallet
   puts 'Bill has more money than Penny'
 elsif bills_wallet < pennys_wallet
