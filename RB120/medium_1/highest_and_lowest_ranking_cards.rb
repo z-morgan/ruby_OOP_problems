@@ -1,5 +1,3 @@
-### did not do further exploration
-
 class Card
   include Comparable
   

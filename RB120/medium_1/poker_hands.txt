@@ -1,0 +1,10 @@
+pair? method:
+determine if any two cards in an array of five cards have the same rank.
+
+A:
+for each card, 
+  get it's rank, and add it to an empty array
+  for each element in that array, see if it occurs twice in the array
+    if so, remove all occurances of it from the array, and increment counter by 1
+  repeat 7 and 8
+  if counter >= 2, return true
