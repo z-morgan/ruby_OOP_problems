@@ -7,7 +7,7 @@ class Card
 
   def initialize(rank, suit)
     @rank = rank
-    @suit = suit
+    @suit = suit  
   end
   
   def numeric(rank)
